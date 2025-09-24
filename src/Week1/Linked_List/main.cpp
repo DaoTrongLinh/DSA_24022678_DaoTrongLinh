@@ -6,7 +6,6 @@ using namespace std;
 int main()
 {
 //TEST
-/*
     LinkedList a;
 
     a.DuyetXuoi();
@@ -61,6 +60,6 @@ int main()
     a.DuyetXuoi();
     a.DuyetNguoc();
     a.TruyCap(6);
-*/
+
     return 0;
 }
