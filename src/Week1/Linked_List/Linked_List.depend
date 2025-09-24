@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1758689538 source:c:\users\admin\onedrive\documents\tronglinh\dsa\linked_list\main.cpp
+	<iostream>
+	"DefLinkedList.h"
+
+1758689419 c:\users\admin\onedrive\documents\tronglinh\dsa\linked_list\deflinkedlist.h
+	<iostream>
+
+1758698679 source:c:\users\admin\onedrive\documents\tronglinh\dsa\src\linked_list\main.cpp
+	<iostream>
+	"DefLinkedList.h"
+
+1758689419 c:\users\admin\onedrive\documents\tronglinh\dsa\src\linked_list\deflinkedlist.h
+	<iostream>
+
