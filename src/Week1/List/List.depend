@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1758730511 source:c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week1\list\main.cpp
+	<iostream>
+	"DefList.h"
+
+1758730581 c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week1\list\deflist.h
+	<iostream>
+

@@ -1,12 +1,11 @@
 #include <iostream>
-#include "DefLinkedList.h"
+#include "DefList.h"
 
 using namespace std;
 
 int main()
 {
-//TEST
-    LinkedList a;
+    List a;
 
     a.TruyCap(1);
     a.DuyetXuoi();

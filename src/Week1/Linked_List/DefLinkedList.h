@@ -17,6 +17,7 @@ struct LinkedList{
     LinkedList(){
         head = nullptr;
     }
+    //O(n)
     void TruyCap(int index){
         Node *h = head;
         if(index <= 0){
@@ -35,10 +36,12 @@ struct LinkedList{
             return;
         }
     }
+    //O(1)
     void ThemVaoDau(int value){
         Node *newNode = new Node{value, head};
         head = newNode;
     }
+    //O(n)
     void ThemVaoCuoi(int value){
         Node *newNode = new Node{value, nullptr};
         if(head == nullptr){
@@ -51,6 +54,7 @@ struct LinkedList{
             h -> next = newNode;
         }
     }
+    //O(n)
     void ThemVaoViTri(int index, int value){
         if(index <= 0){
             cout << "Invalid index!" << endl;
@@ -77,6 +81,7 @@ struct LinkedList{
             }
         }
     }
+    //O(1)
     void XoaDau(){
         if(head == nullptr){
             cout << "Can not delete!" << endl;
@@ -87,6 +92,7 @@ struct LinkedList{
         head = head -> next;
         delete h;
     }
+    //O(n)
     void XoaCuoi(){
         if(head == nullptr){
             cout << "Can not delete!" << endl;
@@ -103,6 +109,7 @@ struct LinkedList{
             h -> next = nullptr;
         }
     }
+    //O(n)
     void XoaViTri(int index){
         if(index <= 0){
             cout << "Invalid index!" << endl;
@@ -130,6 +137,7 @@ struct LinkedList{
             }
         }
     }
+    //O(n)
     void DuyetXuoi(){
         Node *h = head;
         if(h == nullptr){
@@ -143,6 +151,8 @@ struct LinkedList{
         }
         cout<<endl;
     }
+
+    //O(n)
     //Ham chinh de duyet nguoc
     void PrintReverse(Node *h){
         if(h == nullptr){
@@ -152,7 +162,6 @@ struct LinkedList{
             cout << h -> data << " ";
         }
     }
-
     //Ham phu de duyet nguoc
     void DuyetNguoc(){
         Node *h = head;
