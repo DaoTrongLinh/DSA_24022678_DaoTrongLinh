@@ -11,6 +11,7 @@ int main()
     Stack_LinkedList sll;
     sll.pop();
     sll.top();
+    cout << sll.isEmpty() << endl;
 
     sll.push(1);
     sll.push(2);
@@ -18,14 +19,17 @@ int main()
     sll.push(4);
     sll.push(5);
 
+    cout << sll.isEmpty() << endl;
     cout << sll.size() << endl;
     cout << sll.pop() << endl;
     cout << sll.top() << endl;
+    cout << sll.size() << endl;
 
     //Stack_List
     Stack_List sl;
     sl.pop();
     sl.top();
+    cout << sl.isEmpty() << endl;
 
     sl.push(1);
     sl.push(2);
@@ -33,9 +37,11 @@ int main()
     sl.push(4);
     sl.push(5);
 
+    cout << sl.isEmpty() << endl;
     cout << sl.size() << endl;
     cout << sl.pop() << endl;
     cout << sl.top() << endl;
+    cout << sl.size() << endl;
 
     return 0;
 }

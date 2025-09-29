@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1759145859 source:c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week2\queue\main.cpp
+	<iostream>
+	"DefQueue.h"
+
+1759145699 c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week2\queue\defqueue.h
+	<iostream>
+	"DefLinkedList.h"
+	"DefList.h"
+
+1759145218 c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week2\queue\deflinkedlist.h
+	<iostream>
+
+1759145218 c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week2\queue\deflist.h
+	<iostream>
+
