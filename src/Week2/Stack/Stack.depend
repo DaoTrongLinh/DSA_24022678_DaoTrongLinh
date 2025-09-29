@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1759131490 source:c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week2\stack_linkedlist\main.cpp
+	<iostream>
+	"DefStack.h"
+
+1759131305 c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week2\stack_linkedlist\defstack.h
+	<iostream>
+	"DefLinkedList.h"
+
+1759131305 c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week2\stack_linkedlist\deflinkedlist.h
+	<iostream>
+
+1759131834 source:c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week2\stack\main.cpp
+	<iostream>
+	"DefStack.h"
+
+1759131834 c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week2\stack\defstack.h
+	<iostream>
+	"DefLinkedList.h"
+
+1759131965 c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week2\stack\deflinkedlist.h
+	<iostream>
+
