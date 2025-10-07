@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1759822455 source:c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week3\sapxep\main.cpp
+	<iostream>
+	"QuickSort.h"
+	"MergeSort.h"
+	"HeapSort.h"
+
+1759818906 c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week3\sapxep\quicksort.h
+	<iostream>
+
+1759822601 c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week3\sapxep\mergesort.h
+	<iostream>
+
+1759818874 c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week3\sapxep\heapsort.h
+
