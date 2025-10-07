@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1759768159 source:c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week3\binaryheap\main.cpp
+	<iostream>
+	"DefBinaryHeap.h"
+
+1759768138 c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week3\binaryheap\defbinaryheap.h
+	<iostream>
+
