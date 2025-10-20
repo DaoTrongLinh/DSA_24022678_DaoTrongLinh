@@ -32,7 +32,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="DefLinkedList.h" />
 		<Unit filename="DefSymbolTable.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>

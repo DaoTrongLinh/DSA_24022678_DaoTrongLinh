@@ -17,22 +17,22 @@ struct BST{
         root = nullptr;
     }
 
-    void insertt(Node *&r, int value){
+    void putt(Node *&r, int value){
         if(r == nullptr){
             r = new Node{value, nullptr, nullptr};
             return;
         }
         if(value < r->data){
-            insertt(r->left, value);
+            putt(r->left, value);
         } else if (value > r->data){
-            insertt(r->right, value);
+            putt(r->right, value);
         } else {
             return;
         }
     }
 
-    void insert(int value){
-        insertt(root, value);
+    void put(int value){
+        putt(root, value);
     }
 
     void preorderr(Node *r){

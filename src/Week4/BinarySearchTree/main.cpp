@@ -3,14 +3,14 @@
 int main() {
     BST t;
 
-    t.insert(25);
-    t.insert(40);
-    t.insert(5);
-    t.insert(15);
-    t.insert(20);
-    t.insert(30);
-    t.insert(10);
-    t.insert(35);
+    t.put(25);
+    t.put(40);
+    t.put(5);
+    t.put(15);
+    t.put(20);
+    t.put(30);
+    t.put(10);
+    t.put(35);
 
     cout << "Preorder: ";
     t.preorder();
