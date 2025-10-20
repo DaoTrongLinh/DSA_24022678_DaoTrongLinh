@@ -17,6 +17,7 @@ struct SymbolTableLL{
 
     SymbolTableLL(){
         head = nullptr;
+        n = 0;
     }
 
     void put(string k, int v){
@@ -29,6 +30,7 @@ struct SymbolTableLL{
         }
         Node *newNode = new Node{k, v, head};
         head = newNode;
+        n++;
     }
 
     int get(string k){

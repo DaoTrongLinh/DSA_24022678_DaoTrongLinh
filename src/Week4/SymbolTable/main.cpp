@@ -16,6 +16,18 @@ int main(){
 
     cout << "size: " << st.size() << endl;
 
+    SymbolTableL s;
+
+    s.put("A", 10);
+    s.put("B", 20);
+    s.put("C", 30);
+
+    cout << s.get("A") << endl;
+    cout << s.get("B") << endl;
+    cout << s.get("X") << endl;
+
+    cout << "size = " << s.size() << endl;
+
     return 0;
 }
 
