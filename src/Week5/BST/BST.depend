@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1761102495 source:c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week5\bst\main.cpp
+	<iostream>
+	"DefBST.h"
+
+1761102489 c:\users\admin\onedrive\documents\tronglinh\dsa\th\24022678_daotronglinh\src\week5\bst\defbst.h
+	<iostream>
+
