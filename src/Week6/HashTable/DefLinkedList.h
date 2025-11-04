@@ -27,22 +27,6 @@ struct LinkedList{
         }
         head = nullptr;
     }
-    //O(1)
-    void ThemVaoDau(int value){
-        Node *newNode = new Node{value, head};
-        head = newNode;
-    }
-    //O(1)
-    void XoaDau(){
-        if(head == nullptr){
-            cout << "Can not delete!" << endl;
-            return;
-        }
-        Node *h = head;
-        head = head -> next;
-        delete h;
-    }
-/*
     //O(n)
     void TruyCap(int index){
         Node *h = head;
@@ -62,7 +46,11 @@ struct LinkedList{
             return;
         }
     }
-
+    //O(1)
+    void ThemVaoDau(int value){
+        Node *newNode = new Node{value, head};
+        head = newNode;
+    }
     //O(n)
     void ThemVaoCuoi(int value){
         Node *newNode = new Node{value, nullptr};
@@ -103,7 +91,17 @@ struct LinkedList{
             }
         }
     }
+    //O(1)
+    void XoaDau(){
+        if(head == nullptr){
+            cout << "Can not delete!" << endl;
+            return;
+        }
 
+        Node *h = head;
+        head = head -> next;
+        delete h;
+    }
     //O(n)
     void XoaCuoi(){
         if(head == nullptr){
@@ -185,7 +183,42 @@ struct LinkedList{
             cout << endl;
         }
     }
-*/
+
+    bool TimKiem(int value){
+        Node *h = head;
+        while(h != nullptr){
+            if(h->data == value){
+                return true;
+            }
+            h = h->next;
+        }
+        return false;
+    }
+
+    void XoaGiaTri(int value){
+        if(head == nullptr){
+            return;
+        }
+        if(head->data == value){
+            Node *temp = head;
+            head = head->next;
+            delete temp;
+            return;
+        }
+        //Truong hop xoa vi tri hoac xoa cuoi
+        Node *h = head;
+        Node *current = head->next;
+        while(current != nullptr && current->data != value){
+            h = current;
+            current = current->next;
+        }
+        //Neu current != nullptr nhung current->data == value
+        if(current != nullptr){
+            h->next = current->next;
+            delete current;
+        }
+    }
+
 };
 
 #endif // DEFLINKEDLIST_H_INCLUDED

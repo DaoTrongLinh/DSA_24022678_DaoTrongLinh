@@ -17,6 +17,16 @@ struct LinkedList{
     LinkedList(){
         head = nullptr;
     }
+    //Ham huy
+    ~LinkedList() {
+        Node *h = head;
+        while (h != nullptr) {
+            Node *temp = h;
+            h = h->next;
+            delete temp;
+        }
+        head = nullptr;
+    }
     //O(n)
     void ThemVaoCuoi(int value){
         Node *newNode = new Node{value, nullptr};
