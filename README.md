@@ -1,5 +1,6 @@
 # 24022678_DaoTrongLinh
 Repo này lưu các file code C++ về các loại cấu trúc dữ liệu và thuật toán sắp xếp cơ bản.
+
 Các loại cấu trúc dữ liệu cơ bản:
 - List
 - Linked List
@@ -12,6 +13,7 @@ Các loại cấu trúc dữ liệu cơ bản:
 - AVL Tree
 - Hash Table
 - Graph
+
 Các loại thuật toán sắp xếp cơ bản:
 - Insertion Sort
 - Selection Sort
